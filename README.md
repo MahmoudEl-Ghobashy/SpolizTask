@@ -1,16 +1,47 @@
-# SpolizTask
-Photon reconnection task
+# 🏎️ Photon Reconnection Task  
 
-for a quick video please go to Video/Spoilz test.mp4
+📹 **For a quick video demonstration, go to:**  
+📂 `Video/Spoilz test.mp4`  
 
-To run the app: 
-1- Build the app from unity to windows 
-2- Run the app on 2 different instances 
-3- Press play to create or join room 
-4- Disconnect and reconnect within the dedicated time frame.
+---
 
-Constraints to reconnect:
-1- After disconnection the app will attempts 5 times to reconnect to the same room 
-2- Each attempt has a time frame of 3 seconds 
-3- If successfully reconnected player will respawn to the same position as he was before disconnection 
-4- In case of the room is not available or connection is not restored player will be taken back to the menu and disconnected completely from photon. 
+## 🚀 How to Run the App  
+
+### **1️⃣ Build the App**
+- Open the project in **Unity**  
+- Go to **File → Build Settings**  
+- Select **Windows** as the platform  
+- Click **Build and Run**  
+
+### **2️⃣ Run Multiple Instances**
+- Open **two instances** of the game  
+- This allows testing **multiplayer features**  
+
+### **3️⃣ Join or Create a Room**
+- Press **Play** on both instances  
+- The game will **automatically create or join a room**  
+
+### **4️⃣ Test Reconnection**
+- **Disconnect one player** (turn off WiFi or manually disconnect)  
+- **Reconnect within the allowed time** to rejoin the same room  
+
+---
+
+## 🔄 Constraints for Reconnection  
+
+✅ **Reconnection Attempts:**  
+- The app will **attempt to reconnect 5 times**  
+
+✅ **Time Limit for Each Attempt:**  
+- Each reconnection attempt lasts **3 seconds**  
+
+✅ **Successful Reconnection:**  
+- If successful, the player **respawns at the exact position before disconnection**  
+
+✅ **Failed Reconnection:**  
+- If the room is **unavailable** or connection **is not restored**,  
+  the player will be **sent back to the main menu** and **fully disconnected from Photon**  
+
+---
+
+🔥 **Now you're ready to test!** 🚗💨  
